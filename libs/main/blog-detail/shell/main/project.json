@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/main/blog-detail/shell/main",
+  "sourceRoot": "libs/main/blog-detail/shell/main/src",
+  "prefix": "nals-interview-test",
+  "targets": {
+    "test": {
+      "executor": "@angular-devkit/build-angular:karma",
+      "options": {
+        "main": "libs/main/blog-detail/shell/main/src/test.ts",
+        "tsConfig": "libs/main/blog-detail/shell/main/tsconfig.spec.json",
+        "karmaConfig": "libs/main/blog-detail/shell/main/karma.conf.js"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/main/blog-detail/shell/main/src/**/*.ts",
+          "libs/main/blog-detail/shell/main/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

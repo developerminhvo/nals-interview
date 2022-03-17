@@ -15,7 +15,12 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@main-shell-main": ["libs/main/shell/main/src/index.ts"],
+      "@main-blog-detail": ["libs/main/blog-detail/shell/main/src/index.ts"],
+      "@main-blog-list": [
+        "libs/main/blog-detail/shell/main/nals-blog-detail/src/index.ts"
+      ],
+      "@main-list": ["libs/main/list/index.ts"],
+      "@main-shell": ["libs/main/shell/index.ts"],
       "@main-shell-ui-layout": ["libs/main/shell/ui/layout/src/index.ts"]
     }
   },

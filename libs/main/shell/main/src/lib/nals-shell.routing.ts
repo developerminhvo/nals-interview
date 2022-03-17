@@ -1,5 +1,5 @@
 import { Route, RouterModule } from '@angular/router';
-import {NalsShellComponent} from "./nals-shell/nals-shell.component";
+import {NalsShellComponent} from "./containers";
 
 const routes: Route[] = [
   {
@@ -13,8 +13,12 @@ const routes: Route[] = [
       },
       {
         path: 'list',
-        loadChildren: () => import('@main-shell-main').then((m) => m.NalsShellModule)
+        loadChildren: () => import('@main-list').then((m) => m.NalsBlogListModule)
       },
+      {
+        path: 'list/:id',
+        loadChildren: () => import('@main-blog-detail').then((m) => m.MainBlogDetailShellMainModule)
+      }
     ]
   }
 ];

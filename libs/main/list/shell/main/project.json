@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/main/list/shell/main",
+  "sourceRoot": "libs/main/list/shell/main/src",
+  "prefix": "nals-list",
+  "targets": {
+    "test": {
+      "executor": "@angular-devkit/build-angular:karma",
+      "options": {
+        "main": "libs/main/list/shell/main/src/test.ts",
+        "tsConfig": "libs/main/list/shell/main/tsconfig.spec.json",
+        "karmaConfig": "libs/main/list/shell/main/karma.conf.js"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/main/list/shell/main/src/**/*.ts",
+          "libs/main/list/shell/main/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
