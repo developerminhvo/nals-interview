@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "main": "apps/main",
+    "main-e2e": "apps/main-e2e",
+    "main-shell-main": "libs/main/shell/main",
+    "main-shell-ui-layout": "libs/main/shell/ui/layout"
+  }
 }

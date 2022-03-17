@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@main-shell-main": ["libs/main/shell/main/src/index.ts"],
+      "@main-shell-ui-layout": ["libs/main/shell/ui/layout/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
