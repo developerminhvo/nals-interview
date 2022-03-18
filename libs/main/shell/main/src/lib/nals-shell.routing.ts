@@ -16,7 +16,7 @@ const routes: Route[] = [
         loadChildren: () => import('@main-list').then((m) => m.NalsBlogListModule)
       },
       {
-        path: 'list/:id',
+        path: 'list/:blogId',
         loadChildren: () => import('@main-blog-detail').then((m) => m.MainBlogDetailShellMainModule)
       }
     ]

@@ -5,6 +5,8 @@
     "main-blog-detail-shell-main": "libs/main/blog-detail/shell/main",
     "main-e2e": "apps/main-e2e",
     "main-list-shell-main": "libs/main/list/shell/main",
+    "main-shared-data-access-apis": "libs/main/shared/data-access/apis",
+    "main-shared-data-access-app-config": "libs/main/shared/data-access/app-config",
     "main-shell-main": "libs/main/shell/main",
     "main-shell-ui-layout": "libs/main/shell/ui/layout"
   }

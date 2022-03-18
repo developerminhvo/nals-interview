@@ -21,7 +21,16 @@
       ],
       "@main-list": ["libs/main/list/index.ts"],
       "@main-shell": ["libs/main/shell/index.ts"],
-      "@main-shell-ui-layout": ["libs/main/shell/ui/layout/src/index.ts"]
+      "@main-shell-ui-layout": ["libs/main/shell/ui/layout/src/index.ts"],
+      "@nals-interview-test/main/blog-detail/share/data-access/store": [
+        "libs/main/blog-detail/share/data-access/store/src/index.ts"
+      ],
+      "@nals-interview-test/main/shared/data-access/apis": [
+        "libs/main/shared/data-access/apis/src/index.ts"
+      ],
+      "@nals-interview-test/main/shared/data-access/app-config": [
+        "libs/main/shared/data-access/app-config/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

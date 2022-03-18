@@ -1,1 +1,6 @@
-<p>nals-blog-detail works!</p>
+<div *ngIf="vm$ | async as vm">
+    nals-blog-detail works!
+    <p>{{ vm.data.id }}</p>
+    <p>{{ vm.data.content }}</p>
+    
+</div>
